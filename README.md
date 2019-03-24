@@ -1,3 +1,7 @@
+# NOTE: This [react-native-modal](https://github.com/react-native-community/react-native-modal) fork only what it does it removes the usage of the native Modal, and use a simple View instead, hopefully, this fork won't be needed after the [js version](https://github.com/react-native-community/react-native-modal/issues/145) of react-native-modal has been shipped.
+
+-----
+
 # react-native-modal
 
 [![npm version](https://badge.fury.io/js/react-native-modal.svg)](https://badge.fury.io/js/react-native-modal)

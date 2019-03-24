@@ -4,7 +4,7 @@ import {
   DeviceEventEmitter,
   Dimensions,
   KeyboardAvoidingView,
-  Modal,
+  View,
   PanResponder,
   Platform,
   TouchableWithoutFeedback
@@ -485,11 +485,8 @@ class ReactNativeModal extends Component {
     );
 
     return (
-      <Modal
-        transparent={true}
-        animationType={"none"}
-        visible={this.state.isVisible}
-        onRequestClose={onBackButtonPress}
+      this.state.isVisible ? <View
+        style={{ position: 'absolute', width: deviceWidth, height: deviceHeight, flex: 1 }}
         {...otherProps}
       >
         {hasBackdrop && (
@@ -522,7 +519,7 @@ class ReactNativeModal extends Component {
         )}
 
         {!avoidKeyboard && containerView}
-      </Modal>
+      </View> : null
     );
   }
 }
