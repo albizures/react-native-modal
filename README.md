@@ -1,5 +1,5 @@
 # NOTE: This [react-native-modal](https://github.com/react-native-community/react-native-modal) fork only what it does it removes the usage of the native Modal, and use a simple View instead, hopefully, this fork won't be needed after the [js version](https://github.com/react-native-community/react-native-modal/issues/145) of react-native-modal has been shipped.
-
+> This fork hasn't been widely tested, you can check the [changes](https://github.com/albizures/react-native-modal/pull/1) made, and use it at your own risk
 -----
 
 # react-native-modal
